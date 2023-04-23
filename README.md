@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Busca Pet
 
-`CURSO`
+`Tecnólogo em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto - Desenvolvimento de Aplicação Web Front-end `
 
-`SEMESTRE`
+`Eixo 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este trabalho possui como intuito o desenvolvimento de uma aplicação web front-end visando o aprendizado e a colaboração em equipe. Dentre os objetivos, pretende-se apresentar detalhadamente o caminho até o desenvolvimento da mesma.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ana Beatriz de Almeida Bacelar
+* Giovanna Lima Torres Guasch
+* Harttur Luiz Junio Diogenes da Silva
+* Lucas Henrique Vasconcelos Siqueira
+* Marconi Magalhães Santos do Carmo
+* Pedro Henrique Argentino Dias
 
 ## Orientador
 
-* Nome completo do professor 1
+* Vitor Mangaravite
 
 ## Instruções de utilização
 

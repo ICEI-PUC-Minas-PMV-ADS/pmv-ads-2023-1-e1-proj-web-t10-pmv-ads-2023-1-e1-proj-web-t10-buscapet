@@ -1,35 +1,63 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Em nossos processos determinamos o preparo da plataforma do sistema como critério de maior foco, visando melhor atender nossos usuários. Visto que não temos uma faixa etária de usuários definida, a interface foi construída pensando em ser simples, funcional e acessível, mas ainda bela e tecnológica. 
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+O fluxograma abaixo representa a forma de interação do nosso usuário com o portal, por quais telas percorrerá e sua comunicação. A visualização pode ser feita através do [Figma](https://www.figma.com/proto/iy7py7SRuxA7bbgTIuer5Y/Busca-Pet?node-id=1-4&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A4).
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![Userflow Busca Pet](img/userflow.png)
 
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Com a fluidez entre as telas no portal apresentado acima, nossas telas são mostradas com poucos detalhes para não confundir o usuário nem dificultar a experiencia em nosso portal. As telas do sistema são equipadas com as ferramentas de informação, de pesquisa, botão home e área do usuário.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+- **Pesquisa:** A barra de pesquisa que auxilia os utilizadores a buscarem postagens com mais agilidade e por filtros específicos.
+- **Botão home:** Botão que retorna a tela inicial do sistema.
+- **Perfil do usuário:** Botão que apresenta o usuário que está logado.
+
+![Wireframe padrão](img/padrao.png)
+
+### Tela - Login
+
+Tela secundária do sistema, onde o usuário realiza a autenticação em nosso portal podendo assim fazer parte da comunidade e escrever posts.
+
+![Tela de login](img/login.png)
+
+### Tela - Homepage
+
+Tela inicial do portal, onde é mostrado as últimas postagens de animais encontrados e perdidos. Nela pode acontecer a primeira interação entre os usuários. Pode também nesta tela, realizar a busca por uma postagem especifica de sua escolha, através da barra de pesquisa.
+
+![Homepage](img/homepage.png)
+
+### Tela - Fórum
+
+Tela padrão do fórum, permitindo a criação e visualização de postagens.
+
+![Fórum](img/forum.png)
+
+### Resultados de Pesquisa
+
+Na tela de resultados de pesquisa, os usuários que optarem por utilizar a barra de pesquisa irão ser direcionado a posts com base nas palavras chaves ou filtros utilizados.
+
+![Pesquisa](img/pesquisa.png)
+
+### Postagem
+
+A tela de postagem exibe uma postagem completa com todas as informações detalhadas.
+
+![Postagem](img/postagem.png)
+
+### Comentários
+
+Componente da tela de postagem, na parte de comentários nossos usuários podem realizar as interações necessárias com os demais integrantes da comunidade.
+
+![Comentários](img/comentarios.png)
+
+### Criar Postagem
+
+Tela que permite que um usuário escreva uma postagem.
+
+![Criar Postagem](img/criar.png)
