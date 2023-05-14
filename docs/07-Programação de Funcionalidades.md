@@ -49,3 +49,38 @@ Tela que mostra todos os comentários de uma postagem.
 1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
 2. Descompacte o arquivo em uma pasta específica;
 3. Abra o Visual Studio Code e execute o Live Server;
+
+## Criar postagem (RF-01)
+
+Tela que permite a criação de uma postagem.
+
+![Criar](img/CriarC.png)
+
+**Artefatos de funcionalidade**
+- index.html
+- image.png
+
+**Instruções de acesso**
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+2. Descompacte o arquivo em uma pasta específica;
+3. Abra o Visual Studio Code e execute o Live Server;
+
+## Postagem (RF-02 e RF-04)
+
+Tela que permite a visualização de uma postagem.
+
+![Postagem](img/PostagemC.png)
+
+**Artefatos de funcionalidade**
+- index.html
+- cachorro1.png
+- cachorro2.png
+- logotipo.png
+- logotipopng.png
+- style.css
+- stylesearch.css
+
+**Instruções de acesso**
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+2. Descompacte o arquivo em uma pasta específica;
+3. Abra o Visual Studio Code e execute o Live Server;
