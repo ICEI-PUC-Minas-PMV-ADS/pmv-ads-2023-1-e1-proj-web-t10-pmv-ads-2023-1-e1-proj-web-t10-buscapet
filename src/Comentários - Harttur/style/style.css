@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    margin: 8%;
+    
+    padding: px;
+    font-family: arial;
+    position: static;
+}
+.home{
+    background-color: #c4c4c4 ;
+    background-attachment: fixed;
+    border: 1px solid ;
+}
+
+.coment {
+    
+    background-color:#FCE05A;
+    border-radius:15px;
+    margin: 20px;
+    display: grid;
+    grid-template-areas: "img img  name date"
+                         "img img  texto texto"
+                         "img img  botton botton1";
+}
+
+img{
+    
+    grid-area: img;
+}
+
+.container {
+    background-color: #c4c4c4;
+    width:100%;
+    padding: 20px;
+}
+
+.name {
+    grid-area: name;
+}
+
+.date {
+    grid-area: date;
+}
+
+.texto{
+    grid-area: texto;
+}
+.botton{
+    grid-area: botton;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: black;
+    font-size: 1.5em;
+}
+.botton1{
+    grid-area: botton1;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: black;
+    font-size: 1.5em;
+   
+}
+
+.titulo {
+    width: 600px;
+}
+
+
+#divBusca{
+    background-color:white;
+    border:solid 15px #c4c4c4;
+    width:80%;
+  }
+  
+ /* nova tentatica de fazer melhor */
+
+  .coments1{
+    width: 100%;
+    background-color: white;
+    font-family: arial;
+    border-radius:15px;
+    text-align: left;
+  }
+
+ 
+  .coments2{
+    background-color: #c4c4c4;
+    border-radius:9px;
+    width:80%;
+    padding: 1px;
+    float: left;
+    
+  }
+
+  .perfil{
+    background-color: #FCE05A;
+    border-radius:15px;
+    float: right;    
+}
+
+.img-perfil{
+    float: left;
+    border-radius:15px;
+    width:14%;
+}

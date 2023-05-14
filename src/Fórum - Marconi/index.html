@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Busca Pet</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <div class="col-12 header_area">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-2 col-lg-2">
+                        <a href="index.html"><img src="img/logo-mod.jpg" class="logo"></a>
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+
+                        <form id="pesquisa-form" class="form-inline my-0 my-lg-2">
+                            <div class="input-group mb-3">
+                                <input type="text" id="input-search" class="form-control" placeholder="Pesquisar"
+                                    aria-label="Pesquisar" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-info" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div id="perfil" class="col-12 col-sm-12 col-md-2 col-lg-2 ">
+                        <a href="perfil.html"><img class="img-perfil" src="img/tonho.jpg"></a>
+                        <a class="logout" href="#">Sair</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Corpo da página -->
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <button type="button" id="btn" class="btn btn-light btn-lg">Criar Postagem</button>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <button type="button" id="btn" class="btn btn-light btn-lg">Fórum</button>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <button type="button" id="btn" class="btn btn-light btn-lg">Filtros</button>
+                </div>
+            </div>
+
+            <div class="card flex-row"><img class="card-img-left" src="img/cat-branco.jpg" />
+                <div class="card-body">
+                    <h4 class="card-title h5 h4-sm">Jorge Jesus</h4>
+                    <p class="card-text">15/04/2023</p>
+                    <p class="card-text">Gato perdido na Rua Bom Repouso. Recompensa: R$ 100,00</p>
+                </div>
+            </div>
+
+            <div class="card flex-row"><img class="card-img-left" src="img/cat-preto.jpg" />
+                <div class="card-body">
+                    <h4 class="card-title h5 h4-sm">Bruna Surfistinha</h4>
+                    <p class="card-text">14/04/2023</p>
+                    <p class="card-text">Procura-se gata preta chamada por Matilde</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container ">
+            <div class="row">
+
+                <div id="copyright" class="col-12">
+                    <i class="far fa-copyright"></i> Copyright 2023 - BuscaPet
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1f598b9b74.js" crossorigin="a"></script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+body{
+    display: inline-flexbox;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header { border-radius: 20px;
+    display: flex;
+    background-color: gray;
+    height: 65px;
+    width: 100%;
+}
+
+#logo {
+    border-radius: 20px;
+    float: inline-end;
+    height: 65px;
+    width: 150px;
+}
+
+form {
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    height: 65px;
+    width: 1050px ;
+}
+input{
+    margin: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    height: 30px;
+    width: 700px;
+
+}
+button{
+    border-radius: 10px;
+    align-content: center;
+    height: 35px;
+    width: 100px;
+    cursor:pointer;
+}
+
+#login { 
+    border-radius: 20px;
+    text-align: center;
+    background-color: #FCE05A;
+    float: right;
+    height: 65px;
+    width: 250px;
+}
+h1 {
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+#capa {
+    background-color: black;
+    
+}
+#banner {
+    display: block;
+    margin: auto;
+}
+#navforum {
+    border-radius: 15px;
+    background-color: #FCE05A;
+    display: block;
+    margin: auto;
+    height: 60px;
+    width: 600px;
+}
+#linkforum { 
+    align-content: center;
+    text-align: center;
+}
+h2 { 
+    margin: auto;
+    color: black;
+    font-size: 150%;
+}
+.blockpost { flex-direction: column;
+    display: block;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(170, 210, 244);
+   border-radius: 5px;
+}
+#att {
+    background-color: #FCE05A;
+    border-radius: 5px;
+}
+.postagens {
+    display: flex;
+
+}
+.imgp {
+    height: 200px;
+    width: 400px;
+}
+#post {
+    align-items: center;
+    margin: 5px;
+}
+#tp1 {
+    margin-left: 4% ;
+    margin-bottom: 5%;
+}
+footer {
+    background-color: gray;
+    height: 30px;
+    width: 100%;
+}

@@ -1,0 +1,58 @@
+.cinza {
+    font-family: arial;
+    align-items: center;
+    background-color: #C4C4C4;
+    display: flex;
+    position:absolute;
+    flex-direction: row;
+    height: 50px;
+    width: 1100px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+.pesquisa {
+    font-family: arial;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    position:absolute;
+    flex-direction: row;
+    height: 25px;
+    width: 1000px;
+    margin-top: 12px;
+    margin-left: 225px;
+    border-radius: 10px;
+    font-size: 7px;
+}
+
+.usuário {
+    font-family: arial;
+    align-items: center;
+    background-color: #FCE05A;
+    display: flex;
+    position:absolute;
+    flex-direction: row;
+    margin-left: 1275px;
+    height: 65px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+img[src="antonio.png"] {
+    margin-left: 15px;
+    width: 55px;
+    height:auto;
+ }
+
+ img[src="logo.png"] {
+    margin-left: 25px;
+    width: 100px;
+    height: auto;
+
+ }
+
+ h2 {
+    margin-left: 5px;
+ }

@@ -1,15 +1,51 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidadesdo sistema. As orientações de acesso são apresentadas na sequência.
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+## Tela do Fórum (RF-01 e RF-03)
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+A tela principal do Fórum permite a criação e filtragem de posts.
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+![Tela Fórum](img/ForumC.png)
+
+**Artefatos de funcionalidade**
+- Pasta com Imagens
+- index.html
+- style.css
+
+**Instruções de acesso**
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+2. Descompacte o arquivo em uma pasta específica;
+3. Abra o Visual Studio Code e execute o Live Server;
+
+## Tela de Login (RF-06)
+
+A tela de login pernite que o usuário acesse seu próprio perfil.
+
+![Tela Login](img/LoginC.png)
+
+**Artefatos de funcionalidade**
+- Login.html
+- logo.png
+- style.css
+
+**Instruções de acesso**
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+2. Descompacte o arquivo em uma pasta específica;
+3. Abra o Visual Studio Code e execute o Live Server;
+
+## Comentários (RF-02 e RF-09)
+
+Tela que mostra todos os comentários de uma postagem.
+
+![Comentários](img/ComentsC.png)
+
+**Artefatos de funcionalidade**
+- Imagens
+- coments.html
+- style.css
+
+**Instruções de acesso**
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+2. Descompacte o arquivo em uma pasta específica;
+3. Abra o Visual Studio Code e execute o Live Server;
