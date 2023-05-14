@@ -23,13 +23,9 @@ Este trabalho possui como intuito o desenvolvimento de uma aplicação web front
 
 ## Instruções de utilização
 
-<<<<<<< Updated upstream
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação..
-=======
 1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
 2. Descompacte o arquivo em uma pasta específica;
 3. Abra o Visual Studio Code e execute o Live Server;
->>>>>>> Stashed changes
 
 # Documentação
 
