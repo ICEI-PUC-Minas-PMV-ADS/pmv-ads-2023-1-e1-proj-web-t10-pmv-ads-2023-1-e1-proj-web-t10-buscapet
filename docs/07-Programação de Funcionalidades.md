@@ -84,3 +84,23 @@ Tela que permite a visualização de uma postagem.
 1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
 2. Descompacte o arquivo em uma pasta específica;
 3. Abra o Visual Studio Code e execute o Live Server;
+
+## Tela Inicial
+
+Tela inicial do fórum que permite a entrada.
+
+![Tela Inicial](img/HomepageC.png)
+
+**Artefatos de funcionalidade**
+- capa.png
+- gatinha.png
+- leidy.png
+- leticia.png
+- logo.png
+- index.html
+- style.css
+
+**Instruções de acesso**
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+2. Descompacte o arquivo em uma pasta específica;
+3. Abra o Visual Studio Code e execute o Live Server;
