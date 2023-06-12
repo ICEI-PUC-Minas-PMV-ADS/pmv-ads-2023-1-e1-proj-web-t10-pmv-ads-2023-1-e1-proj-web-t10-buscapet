@@ -1,0 +1,148 @@
+<style>#divbusca{ 
+    background-color:black;
+    border:none;
+    border-radius: 10px;
+    width: 300mm;
+    height: 32px;}
+    #txtBusca{
+       
+      float:inline-start;
+        background-color: rgb(212, 208, 208)  ;
+        
+  font-size:18px;
+  border:none;
+  height:45px;
+  width: 60%;
+    }
+    #btnBusca{
+  border:none;
+  float:inline-end;
+  height: 50px; 
+  border: none;  
+  width:70px;
+  font-weight:bold;
+  background : #FCE05A;
+}
+
+#logo{
+  float:left;
+  width:10%;
+  height: 5%;
+}
+
+#antonio {
+  float: right;
+  width: 5%;
+  border: none;
+margin-top: 0%;
+position: relative;
+top: -50px;
+right: -300px;
+border-radius: 30px ;
+
+}
+#balaoantonio {
+  float:right;
+  background-color: #FCE05A;
+  width: 20%;
+  height: 72px;  
+  border: none;
+  color: black;
+  font-size: larger;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Arial;
+  position: relative;
+top: -50px;
+border-radius: 30px ;
+}
+
+#balao1 {
+  background-color: #FCE05A;
+  width:80%;
+  height: 80px;
+  margin-left: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: larger;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Arial;
+  border: 30px solid  #9ADAFF;
+  position: relative;
+  top: -15px;
+  border-radius: 30px ;
+   
+}
+#balao2 {
+  float:unset ;
+  background-color: #FCE05A;
+  width: 80%;
+  height: 280px;
+  font-size: larger;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Arial;
+  border:  30px solid  #9ADAFF;
+  margin-left: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: -80px;
+}
+#balao3 {
+  float:unset ;
+  background-color: #FCE05A;
+  width: 80%;
+  height: 80px;
+  font-size: larger;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Arial;
+  border: 30px solid  #9ADAFF;
+  margin-left: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: -130px;
+}
+#balao4 {
+  float:left;
+  background-color: #FCE05A;
+  width: 45%;
+  height: 50px;
+  font-size: larger;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Arial;
+  border: 30px solid  #9ADAFF;
+  position: relative;
+  top: -170px;
+  right: -118px;
+  border-radius: 30px ;
+
+}
+#balao5 {
+  float:right;
+  background-color: #FCE05A;
+  width: 40%;
+  height: 112px;
+  font-size: larger;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Arial;
+  border: 30px solid  #9ADAFF;
+  position: relative;
+  top: -171px;
+  right: 118px;
+  border-radius: 30px ;
+}
+ 
+
+</style> 

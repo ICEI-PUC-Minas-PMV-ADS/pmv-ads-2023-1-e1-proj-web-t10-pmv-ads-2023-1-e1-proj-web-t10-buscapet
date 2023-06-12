@@ -1,0 +1,54 @@
+/* header */
+.header {
+    display: flex;
+    height: 100px;
+    margin: 20px;
+  }
+  #logo {
+    float: left;
+  
+    margin-right: 25px;
+  }
+  .pesquisa {
+    background-color: #c4c4c4;
+    border-radius: 9px;
+    width: 80%;
+    padding: 1px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #pesquisa-input {
+    width: 98%;
+    margin: 0;
+    background-color: white;
+    font-family: arial;
+    border-radius: 15px;
+    text-align: left;
+    margin: 10px;
+  }
+  #perfil-btn {
+    background-color: #fce05a;
+    border-color: #fce05a;
+    border-radius: 25px;
+    margin: 20px !important;
+    float: right;
+  }
+  
+  #perfil-btn:hover {
+    background-color: #faf0c1;
+    color: black;
+  }
+  .perfil {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    float: right;
+    width: 150px;
+  }
+  .img-perfil {
+    float: left;
+    border-radius: 25px;
+    width: 30%;
+  }

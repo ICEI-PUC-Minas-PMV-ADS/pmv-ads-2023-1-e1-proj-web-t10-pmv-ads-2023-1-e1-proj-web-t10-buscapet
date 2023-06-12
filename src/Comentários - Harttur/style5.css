@@ -1,0 +1,153 @@
+body {
+  text-align: center;
+  font-family: arial;
+  position: static;
+}
+
+#adicionar-btn {
+  background-color: aqua;
+  border-color: aqua;
+  border-radius: 25px;
+  color: black;
+  position: relative;
+  left: 310px;
+  
+}
+#comentarios-header {
+  display: flex;
+  justify-content: center ;
+}
+#adicionar-btn:hover {
+  background-color: rgb(171, 245, 245);
+}
+
+#botton {
+  grid-area: botton;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  color: black;
+  font-size: 1.5em;
+}
+#botton:hover {
+  background-color: #faf0c1;
+  color: black;
+  border-radius: 25px;
+}
+#botton1 {
+  grid-area: botton1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  color: black;
+  font-size: 1.5em;
+}
+#botton1:hover {
+  background-color: #faf0c1;
+  color: black;
+  border-radius: 25px;
+}
+.home {
+  background-color: #c4c4c4;
+  background-attachment: fixed;
+  border: 1px solid;
+}
+
+.coment {
+  background-color: #fce05a;
+  width: 95%;
+  height: auto;
+  text-align: left;
+  border-radius: 15px;
+  padding-right: 10px;
+  margin: 20px;
+  display: grid;
+  grid-template-areas:
+    "img name date . . "
+    "img texto texto texto texto"
+    "img botton botton botton1 botton1";
+}
+
+img {
+  grid-area: img;
+  height: 100%;
+}
+
+.container {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 20px;
+}
+
+.name {
+  grid-area: name;
+}
+.date {
+  grid-area: date;
+}
+
+#texto {
+  grid-area: texto;
+  margin-right: 150px !important;
+  background-color: #fce05a;
+  height: auto;
+  overflow: hidden;
+  resize: none;
+  border-color: #fce05a;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.titulo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#divBusca {
+  background-color: white;
+  border: solid 15px #c4c4c4;
+  width: 80%;
+}
+
+#meu-dialog{
+  background-color: #fce05a;
+width: 40%;
+border-radius: 15px;
+}
+
+#text-dialog{
+  border-radius: 15px;
+  margin-bottom: 15px;
+  border-color: #645506;
+}
+#close-btn{
+  background-color: #fce05a;
+  border-color: #fce05a;
+  border-radius: 25px;
+  color: black;
+}
+#close-btn:hover{
+  background-color: aqua;
+  border-color: aqua;
+  border-radius: 25px;
+  color: black;
+}
+
+.pagina {
+
+  background-color: #fce05a;
+  text-align: center;
+  width: 200px;
+  margin-left: 650px;
+  border-radius: 10px;
+}
+
