@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style5.css"
+      midia="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    />
+    <script src="coments.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <title>COMENTARIOS</title>
+  </head>
+
+  <body onload="onInit()" >
+    <iframe src="./header.html" width="100%"></iframe>
+
+    <div class="pagina">
+    <a href="./"> <h2> Página Inicial </h2></a>
+  </div>
+
+    <div class="titulo">
+      <h1 style="background-color: aqua; width: 50%; border-radius: 9px">
+        Procura-se cachorra chamada Leidy
+      </h1>
+    </div>
+    <div class="container" id="container">
+      <div id="comentarios-header">
+        <h1>Comentários</h1>
+        <button
+          id="adicionar-btn"
+          class="btn btn-primary"
+          style="margin-bottom: 5px"
+          onclick="showDialog()"
+        >
+          Adicionar um comentário
+        </button>
+      </div>
+
+      
+    </div>
+
+    <div id="dialog-container"></div>
+  </body>
+</html>
