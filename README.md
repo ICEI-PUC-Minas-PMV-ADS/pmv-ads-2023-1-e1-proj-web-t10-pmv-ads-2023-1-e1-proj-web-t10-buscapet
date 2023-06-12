@@ -45,11 +45,11 @@ Este trabalho possui como intuito o desenvolvimento de uma aplicação web front
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* [Site - Busca Pet](https://pedro-argentino.github.io/Busca-Pet/)
 
 # Armazenamento do Código-Fonte
 
-* <a href="src/README.md">Código Fonte</a>
+* [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t10-pmv-ads-2023-1-e1-proj-web-t10-buscapet)
 
 # Armazenamento da Apresentação
 

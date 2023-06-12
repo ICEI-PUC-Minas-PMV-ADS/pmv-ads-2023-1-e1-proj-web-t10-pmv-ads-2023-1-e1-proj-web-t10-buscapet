@@ -12,6 +12,7 @@ O projeto será desenvolvido a partir de plataformas de organização e gerencia
 |Código fonte| Github | [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t10-pmv-ads-2023-1-e1-proj-web-t10-buscapet) | 
 |Prototipação interface| Figma | [Figma](https://www.figma.com/proto/iy7py7SRuxA7bbgTIuer5Y/Busca-Pet?node-id=1-4&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A4) | 
 |Acompanhamento do projeto| Trello | [Trello](https://trello.com/b/xDFMHB9L) | 
+Hospedagem| Github Pages | [Github Pages](https://pedro-argentino.github.io/Busca-Pet/) | 
 
 ## Gerenciamento de Projeto
 
