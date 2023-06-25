@@ -2,7 +2,7 @@
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
-## Criação de Comentários
+## Criação de Comentários - Harttur
 
 O usuário consegue comentar com sucesso nas postagens.
 
@@ -10,7 +10,7 @@ O usuário consegue comentar com sucesso nas postagens.
 
 ![Coments2](img/Teste02.png)
 
-## Armazenamento de Login
+## Armazenamento de Login - Pedro
 
 O usuário consegue deixar seus dados armazenados dentro do site.
 
